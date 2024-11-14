@@ -1,0 +1,25 @@
+{
+  "name": "code-mavericks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/leaflet-routing-machine": "^3.2.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "leaflet-routing-machine": "^3.2.12",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
